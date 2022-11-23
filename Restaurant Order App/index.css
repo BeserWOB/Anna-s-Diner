@@ -1,0 +1,204 @@
+.hidden{
+    display: none;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Smythe';
+    text-align: center;
+} 
+
+header{
+    text-align: left;
+    background-image: url("images/burger.jpeg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+header h2{
+    margin: 0;
+    padding: 46px 46px 19px;
+    font-size: 39px;
+    line-height: 62%;
+}
+
+header h4{
+    padding: 0 46px 46px;
+    font-size: 22px;
+    line-height: 62%;
+}
+
+.menuLeftSide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.menuLeftSideInner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuLeftSideInner h2{
+    font-size: 7rem;
+    padding-right: 31px; 
+}
+
+#menuName {
+    font-size: 39px;
+    line-height: 62%;     
+}#menuInfo{
+    font-size: 16px;
+    line-height: 150%;
+    color: #8B8B8B; 
+}#menuPrice{
+    font-size: 20px;
+    line-height: 100%; 
+}
+
+.addItemBtnDiv button{
+    background: none;
+    padding: 25px;
+    border-radius: 50%;
+    border: 1.5px solid #DEDEDE;
+    
+    font-family: 'Inter';
+    font-size: 32px;
+    line-height: 75%;
+    color: #3C3C3C;
+}
+
+.divider{
+    border: 1px solid #D2D2D2;
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.yourOrder{
+    font-size: 28px;
+    line-height: 60%;
+    text-decoration: underline;
+}
+
+.orderDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.orderDivLeftSide{
+    display: flex;
+    
+}.orderDivLeftSide p{
+    font-size: 28px;
+    line-height: 60%;
+}.orderDivLeftSide button{
+    border: none;
+    background: none;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    color: #BBBBBB;
+}.orderDivLeftSide button:focus{
+    outline: none;
+}.orderDivRightSide p{
+    font-size: 20px;
+    line-height: 120%;}
+    
+.totalPrice{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    line-height: 86%;
+    color: #0E0E0E;
+    width: 75vw;
+    margin: 0 auto;
+} #final-price {
+    font-size: 20px;
+    line-height: 120%; 
+}
+
+.completeOrderBtn{
+margin-bottom: 60px;
+width: 75vw;
+height: 60px;
+background: #16DB99;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 3px;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+border: none;
+}.completeOrderBtn:focus{
+outline: none;}
+
+.modal{
+    display: none;
+    position: fixed;
+    top: 25%;
+    right: 0;
+    left: 0;
+    width: 75vw;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 200px;
+}.modal h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    padding: 60px 30px 30px;
+}.modal input {
+    height: 71.3px;
+    margin: 11.5px ;
+    border: 1.3px solid #757575;
+    border-radius: 4px;
+}.modal-form{
+    display: flex;
+    flex-direction: column;   
+    width: 65vw;
+    margin: 0 auto;
+}.modal input[type="submit"]{
+    background: #16DB99;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 156%;
+    color: #FFFFFF; 
+    margin-bottom: 60px;
+}::placeholder {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 156%;
+    color: #757575; 
+}
+
+.finalMessage{
+    background: #ECFDF5;
+    border-radius: 3px;
+    font-size: 32px;
+    line-height: 52%;
+    color: #065F46;
+    padding: 75px;
+    margin: 45px auto;
+    width: 75vw;
+    line-height: 150%;
+}
